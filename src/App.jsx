@@ -54,7 +54,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar title="TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode} switchMode={switchMode} />
+        <Navbar title="TextEngine" aboutText="About" mode={mode} toggleMode={toggleMode} switchMode={switchMode} />
 
         <Alert alert={alert} />
 
@@ -65,7 +65,7 @@ function App() {
             <Route
               exact path="/"
               element=
-              {<TextForm heading="Try TextUtils - Word Counter, Character Counter, Remove extra spaces" mode={mode} showAlert={showAlert} />}>
+              {<TextForm heading="Try TextEngine - Word Counter, Character Counter, Remove extra spaces" mode={mode} showAlert={showAlert} />}>
             </Route>
 
             <Route

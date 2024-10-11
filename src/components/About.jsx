@@ -10,7 +10,7 @@ export default function About(props) {
 
     return (
         <div className='container' style={{ color: props.mode === "dark" ? "white" : "#042743" }} >
-            <h1 className='my-3'><strong>About TextUtils</strong></h1>
+            <h1 className='my-3'><strong>About TextEngine</strong></h1>
             <div className="accordion" id="accordionExample" style={myStyle}>
                 <div className="accordion-item">
                     <h2 className="accordion-header">
@@ -20,7 +20,7 @@ export default function About(props) {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={myStyle}>
-                            TextUtils gives you a way to analyze your text quickly and efficiently. Be it word count or character count.
+                            TextEngine gives you a way to analyze your text quickly and efficiently. Be it word count or character count.
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ export default function About(props) {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={myStyle}>
-                            TextUtils is a free character counter that provides instant character count & word count statistics for a given text. TextUtils reports the number of words and characters. Thus it is suitable for writing text with word or character limit.
+                            TextEngine is a free character counter that provides instant character count & word count statistics for a given text. TextEngine reports the number of words and characters. Thus it is suitable for writing text with word or character limit.
                         </div>
                     </div>
                 </div>

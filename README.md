@@ -1,5 +1,5 @@
-# TextUtils Web App
-TextUtils is a simple and user-friendly web application that offers various text manipulation utilities. It helps you easily format, analyze, and modify text.
+# TextEngine Web App
+TextEngine is a simple and user-friendly web application that offers various text manipulation utilities. It helps you easily format, analyze, and modify text.
 
 # Features:
 1. Text transformation (uppercase, lowercase)

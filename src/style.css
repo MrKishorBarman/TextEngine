@@ -1,0 +1,20 @@
+.accordion-button::after {
+    filter: invert(1)
+}
+
+.nav-link:hover {
+    border: 2px solid gray
+}
+
+.nav-link.active {
+    font-weight: bold
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 30px
+}
+
+.bg-primary, .bg-danger, .bg-success, .bg-warning, .bg-dark {
+    box-shadow: none;
+}

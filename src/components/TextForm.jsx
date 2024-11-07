@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-
 export default function TextForm(props) {
     const [text, setText] = useState('')
 
@@ -39,7 +38,7 @@ export default function TextForm(props) {
         <>
             <div
                 className='container'
-                style={{ color: props.mode === "dark" ? 'white' : 'black' }}>
+                style={{ color: props.mode === "dark" ? 'white' : 'black',  color: "black"}}>
 
                 <h2 className="mb-4">
                     <strong>{props.heading}</strong>
@@ -54,7 +53,9 @@ export default function TextForm(props) {
                         rows="9"
                         value={text}
                         onChange={handleOnChange}
-                        style={{ backgroundColor: props.mode === 'dark' ? '#13466e' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}>
+                        style={{ backgroundColor: props.mode === 'dark' ? '#13466e' : 'white', color: props.mode === 'dark' ? 'white' : 'black',
+                        border: props.mode === 'dark' ? 'none' : '.1px solid #dee2e6'
+                        }}>
                     </textarea>
                 </div>
 
@@ -96,7 +97,7 @@ export default function TextForm(props) {
 
             <div
                 className="container my-3"
-                style={{ color: props.mode === "dark" ? 'white' : 'black' }}>
+                style={{ color: props.mode === "dark" ? 'white' : 'black',  color: "black"}}>
 
                 <h2>
                     Your text summary

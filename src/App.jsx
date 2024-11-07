@@ -18,7 +18,6 @@ function App() {
     setTimeout(() => {
       setAlert(null)
     }, 1500)
-
   }
 
   const removeBodyClasses = () => {
@@ -57,8 +56,6 @@ function App() {
         <Navbar title="TextEngine" aboutText="About" mode={mode} toggleMode={toggleMode} switchMode={switchMode} />
 
         <Alert alert={alert} />
-
-        {/* <TextForm /> */}
 
         <div className="container my-3">
           <Routes>

@@ -1,1 +1,1 @@
-(Live Link)[https://text-engine.netlify.app]
+[Live Link](https://text-engine.netlify.app)
